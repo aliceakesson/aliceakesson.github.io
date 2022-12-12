@@ -1,5 +1,5 @@
 # aliceakesson.github.io
-Just a repository for HTML stuff 
+Just a repository for my HTML works 
 
 Netflix Intro: 
 https://aliceakesson.github.io/Netflix-Intro
