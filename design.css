@@ -1,16 +1,19 @@
 :root {
-    --primarycolor1: #33C1CC;
-    --primarycolor2: #33CC8B;
-    --secondarycolor1: #3374CC;
+    --primary-dark: #75B9BE;
+    --primary-main: #A8CCC9;
+    --primary-light: #B3D6C6;
+    --secondary-main: #C7D66D;
+    --secondary-light: #DCEAB2;
+    --text-main: #7e2121;
 }
 
 body {
-    background: #eee;
+    background: var(--primary-main);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0 auto; 
-    color: #222;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: var(--text-main);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     overflow-x: hidden;
 }
 
@@ -24,40 +27,11 @@ main {
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 100px;
     margin-bottom: 0;
 }
 
 #title {
     text-align: center;
     margin-bottom: 50px;
-}
-
-.content {
-    align-items: flex-end;
-    flex-wrap: wrap;
-    width: 100%;
-    margin: 0 auto; 
-    display: inline-flex;
-}
-
-.content div {
-    background: rgba(220, 220, 220, 0.8);
-    margin: 0 30px;
-    padding: 25px;
-    border-radius: 20px;
-    width: 200px;
-    height: 100px;
-    box-shadow: #000 0 0 20px -10px;
-}
-.content div:hover {
-    box-shadow: #000 0 0 30px -10px;
-    transition: 0.3s;
-}
-
-
-.content div a {
-    text-decoration: none;
-    color: black;
-    font-size: 30px;
 }
